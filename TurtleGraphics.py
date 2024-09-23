@@ -40,12 +40,12 @@ def fillCorner(leo, corner):
         drawSquare(leo, 50)
         leo.end_fill()
     elif filled == 4:
-        turtle.up
+        leo.up()
         leo.forward(50)
         leo.right(90)
         leo.forward(50)
         leo.left(90)
-        turtle.down
+        leo.down()
         leo.begin_fill()
         drawSquare(leo, 50)
         leo.end_fill()
